@@ -1,0 +1,8 @@
+apiVersion: cs.example.com/v1alpha1
+kind: Containerset
+metadata:
+  name: example-containerset
+spec:
+  # Add fields here
+  size: 3
+  replicas: 6
